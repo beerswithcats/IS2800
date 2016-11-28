@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Fibonacci Sequence</title>
+</head>
+<body>
+<h1>Javascript Assignment: Fibonacci Sequence</h1>
+Kate Force
+<br>IS2800-006
+<br>Ashish Pande
+<br>12/03/2016
+<br>
+<br>
+<script type="text/javascript">
+
+var firstNum = 0;
+  document.write(firstNum+'<br>');
+var secondNum = 1;
+var answer = firstNum + secondNum;
+while (answer < 145) {
+  document.write(answer+'<br/>');
+  secondNum = firstNum;
+  firstNum = answer;
+  answer = firstNum + secondNum;                 
+}
+
+</script>
+</body>
+</html>
