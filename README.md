@@ -7,6 +7,7 @@
 <script type="text/javascript">
 
 var firstNum = 0;
+  document.write(firstNum+'<br>');
 var secondNum = 1;
 var answer = firstNum + secondNum;
 while (answer < 145) {
